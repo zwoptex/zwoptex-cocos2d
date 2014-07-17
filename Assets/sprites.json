@@ -1,0 +1,57 @@
+{
+  "targets" : {
+    "sd" : {
+      "coordinates" : {
+        "file-path" : "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME).app/$(DOCUMENT)-$(SHEET)-$(TARGET).plist",
+        "format" : "com.zwopple.zwoptex.coordinates.cocos2d"
+      },
+      "texture" : {
+        "dithering" : true,
+        "file-path" : "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME).app/$(DOCUMENT)-$(SHEET)-$(TARGET).png",
+        "color-profile" : "com.zwopple.zwoptex.texture.colorprofile.none",
+        "compression" : "com.zwopple.zwoptex.texture.compression.none",
+        "format" : "com.zwopple.zwoptex.texture.png"
+      },
+      "manifest" : {
+        "file-path" : "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME).app/$(DOCUMENT)-$(TARGET).plist",
+        "format" : "com.zwopple.zwoptex.manifest.plist"
+      },
+      "scale-mode" : "smooth",
+      "scale" : 0.5
+    },
+    "hd" : {
+      "coordinates" : {
+        "file-path" : "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME).app/$(DOCUMENT)-$(SHEET)-$(TARGET).plist",
+        "format" : "com.zwopple.zwoptex.coordinates.cocos2d"
+      },
+      "texture" : {
+        "dithering" : true,
+        "file-path" : "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME).app/$(DOCUMENT)-$(SHEET)-$(TARGET).png",
+        "color-profile" : "com.zwopple.zwoptex.texture.colorprofile.none",
+        "compression" : "com.zwopple.zwoptex.texture.compression.none",
+        "format" : "com.zwopple.zwoptex.texture.png"
+      },
+      "manifest" : {
+        "file-path" : "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME).app/$(DOCUMENT)-$(TARGET).plist",
+        "format" : "com.zwopple.zwoptex.manifest.plist"
+      },
+      "scale-mode" : "smooth",
+      "scale" : 1
+    }
+  },
+  "resources" : [
+      "$(SOURCE_ROOT)/Assets/sprites"
+  ],
+  "settings" : {
+    "layout-padding" : 2,
+    "sheet-size-mode" : "any",
+    "layout-mode" : "complex",
+    "sprite-extruding" : 0,
+    "sprite-trimming" : true,
+    "sheet-height" : 2048,
+    "sheet-width" : 2048,
+    "sprite-aliasing" : true,
+    "layout-spacing" : 2,
+    "sprite-padding" : 0
+  }
+}
